@@ -1,5 +1,97 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
+/*Adding a comment*/
+
+body {
+  /*background-color: blanchedalmond; change to green
+  opacity: 0.5;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png);*/
+  background-position: right top;
+}
+
+#welcome {
+  background-color: yellow; /*Id*/
+  text-align-last: right;
+  vertical-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 12px;
+}
+.heading {
+  color: brown;
+  border-radius: 10px;
+}
+
+h1.heading {
+  color: red; /*h1 of class*/
+  border-style: solid;
+  border-width: 10px 5px;
+  border-color: blueviolet green red yellow;
+  padding: 10px 20px 30px 40px;
+  height: 20px;
+  width: 50%;
+  background-color: aquamarine;
+}
+
+* {
+  color: black;
+}
+
+p {
+  margin: 50px 50px 50px 50px;
+  /*Make border (1)*/
+  border-style: outset; /*Inside*/
+  outline-style: dashed;
+  outline-offset: 10px;
+}
+
+b {
+  margin-top: inherit; /*looks on b margin-top*/
+  border-style: dashed double dotted solid;
+  text-align-last: right;
+}
+h3 {
+  text-transform: uppercase;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse;
+}
+th,
+td {
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: blue;
+}
+
+/*
+Bei h1 + b (Alles was nach geschlossene h1 kommt)
+bei h1 b sind alle b in h1 gemeint
+*/
+
+.dropdownbutton {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-button {
+  position: absolute;
+  background-color: lightblue;
+  min-width: 150px;
+}
+
+.dropdown-button a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
